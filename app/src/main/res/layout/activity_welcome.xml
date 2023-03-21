@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5deff"
+    android:padding="25dp"
+    tools:context=".Welcome">
+
+    <TextView
+        android:id="@+id/AppTitle_Copernicus_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Copernicus"
+        android:textColor="#5431CB"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/AppTitle_System_Welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/AppTitle_System_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="System"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Eslogan"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:text="Ven con nosotros y conocerás las estrellas "
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppTitle_Copernicus_Welcome" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/inicioSesion"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:onClick="IniciarSesion"
+        android:text="INICIO"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
