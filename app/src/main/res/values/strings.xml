@@ -3,4 +3,6 @@
 
     <string name="TxtNameCo">Copernicus System</string>
     <string name="TxtLogo">CopernicusSystemLog</string>
+
+    <string name="select">Select Item</string>
 </resources>

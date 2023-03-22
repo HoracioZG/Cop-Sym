@@ -12,8 +12,15 @@
         android:theme="@style/Theme.CopernicusSystem"
         tools:targetApi="31">
         <activity
-            android:name=".Welcome"
+            android:name=".Register"
             android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false"
+            android:theme="@style/Theme.Welcome" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

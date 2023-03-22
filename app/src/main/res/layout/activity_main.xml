@@ -26,13 +26,13 @@
         android:id="@+id/nextechTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/exarros"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_regular"
         android:text="@string/TxtNameCo"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/logoImageView"/>
+        app:layout_constraintTop_toTopOf="@id/logoImageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
